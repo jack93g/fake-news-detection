@@ -36,15 +36,7 @@ Stage 5: presentation
 
 **articles/previous projects about fake news ml**
 
-https://towardsdatascience.com/fake-news-detection-with-machine-learning-using-python-3347d9899ad1
-
-https://www.kdnuggets.com/2017/04/machine-learning-fake-news-accuracy.html
-
-https://towardsdatascience.com/developing-a-data-science-model-to-predict-fake-news-184c25a13cb8
-
-https://github.com/jasminevasandani/NLP_Classification_Model_FakeNews
-
-https://github.com/aldengolab/fake-news-detection - here there are some tips about name replacement - could be useful
+https://github.com/berkurka/Reddit-Classifier/blob/master/Notebooks/03%20Model.ipynb
 
 
 
