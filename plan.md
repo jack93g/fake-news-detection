@@ -38,6 +38,11 @@ Stage 5: presentation
 
 https://github.com/berkurka/Reddit-Classifier/blob/master/Notebooks/03%20Model.ipynb
 
+https://github.com/edumunozsala/Intro-NLP-Text-Classification/blob/master/Intro_NLP_1_TFIDF_Text_Classification.ipynb
+
+https://www.kaggle.com/ankitanikumbh/fake-news-detection
+
+https://www.kaggle.com/devanshiipatel/fake-news-classification
 
 
 **datasets**
