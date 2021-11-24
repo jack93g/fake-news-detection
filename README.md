@@ -11,7 +11,7 @@
 <details open="open">
   <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
   <ol>
-    <li><a href="#repository-structure">Repository Structure</a></li>  
+    <li><a href="#project-files">Project Files</a></li>  
     <li>
       <a href="background">Background</a>
       </ul>
@@ -23,39 +23,62 @@
 </details> 
 
 ---
-<!-- Repository Structure -->
-## **Repository Structure**  
+<!-- Project Files -->
+## **Project Files**  
 
 
- 
 `Images`: contains all the images used in the project.    
-`Files`: contains all CSV data files.
+`Files`: contains all CSV data files.  
+`news_scraping.ipynb`: web scraping news websites
+`data_cleaning.ipynb`: cleaning data with regex   
+`EDA.ipynb`: exporatory data analysis of texts   
+`sentiment_analysis.ipynb`: NLP with textblob and vader  
+`fake_news_prediction.ipynb`: using different ML algorithms to predict if text is fake or real
+
 
 ---
 <!-- background -->
 ## **Background**
 
-- fill in
+In recent years media consumption habits have changed due to the spread of the internet. More people get their news from digital sources such as social media and search engines than ever before. News articles from such sources unfortunately often have very little to do with the truth. The aim of this project is to use natural language processing techniques and machine learning algorithms to see if we can detect such fake news articles.
 
 
 <!-- Workflow -->
 ## **Workflow**
 
-- fill in
+- Scraped articles from real news sites and combined with dataset of fake news from kaggle. 
+- Cleaned the text. Removed URLS, HTML tags & punctuation.
+- Preprocessed data - removed stopwords and lemmatized the text.
+- Converted text to vectors using the TF-IDF vectorizer.
+- Applied different machine learning algorithms including, SVM, Random Forest & logistic regression to predict class to predict whether a given article is fake or real.
+
 
 ---
 
 <!-- Results -->
 ## **Results**
 
-- fill in
+- SVM was the best model overall 
+- Accuracy score: 0.96
+- F1 score: 0.96
 
-### Some further findings
-
-- add some word clouds here
+### Some further findings  
 
 
 
+
+Most common words from the fake news articles.
+
+![fake news](./images/fake.png
+)
+
+Most common words from the real news articles
+
+![real news](./images/real.png
+)
+
+
+---
 <!-- Libraries -->
 ## **Libraries**
 
