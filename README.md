@@ -27,11 +27,11 @@
 ## **Project Files**  
 
 
-`Images`: contains all the images used in the project.    
-`Files`: contains all CSV data files.  
-`news_scraping.ipynb`: web scraping news websites
-`data_cleaning.ipynb`: cleaning data with regex   
-`EDA.ipynb`: exporatory data analysis of texts   
+`images`: contains all the images used in the project.    
+`files`: contains all CSV data files.  
+`news_scraping.ipynb`: web scraping news sites with beautiful soup and selenium 
+`data_cleaning.ipynb`: carrying out data cleaning with regex etc  
+`EDA.ipynb`: exploratory data analysis and visualisations of data
 `sentiment_analysis.ipynb`: NLP with textblob and vader  
 `fake_news_prediction.ipynb`: using different ML algorithms to predict if text is fake or real
 
@@ -40,7 +40,11 @@
 <!-- background -->
 ## **Background**
 
-In recent years media consumption habits have changed due to the spread of the internet. More people get their news from digital sources such as social media and search engines than ever before. News articles from such sources unfortunately often have very little to do with the truth. The aim of this project is to use natural language processing techniques and machine learning algorithms to see if we can detect such fake news articles.
+In recent years media consumption habits have changed due to the spread of the internet. More people get their news from digital sources such as social media and search engines than ever before. News articles from such sources unfortunately often have very little to do with the truth. The aim of this project is to use natural language processing techniques and machine learning algorithms to see if we can detect such fake news articles.  
+
+See my [presentation](https://docs.google.com/presentation/d/1li1ZAZ_O9XeMkK0UOUZBNHxEL7FeGjLBQtk9KQ_xtrY/edit#slide=id.geea67f8950_0_1241) here
+ for further details!
+
 
 
 <!-- Workflow -->
@@ -48,9 +52,10 @@ In recent years media consumption habits have changed due to the spread of the i
 
 - Scraped articles from real news sites and combined with dataset of fake news from kaggle. 
 - Cleaned the text. Removed URLS, HTML tags & punctuation.
-- Preprocessed data - removed stopwords and lemmatized the text.
-- Converted text to vectors using the TF-IDF vectorizer.
-- Applied different machine learning algorithms including, SVM, Random Forest & logistic regression to predict class to predict whether a given article is fake or real.
+- Preprocessed data - removed stopwords and lemmatised the text.
+- Converted text to vectors using the TF-IDF vectoriser.
+- Applied different machine learning algorithms including, SVM, Random Forest & logistic regression to the data.
+- Created a python function which takes a news article as a user input and then vectorises the text and predicts whether it is fake or real using support vector machine.
 
 
 ---
