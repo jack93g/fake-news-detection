@@ -29,7 +29,7 @@
 
 `images`: contains all the images used in the project.    
 `files`: contains all CSV data files.  
-`news_scraping.ipynb`: web scraping news sites with beautiful soup and selenium 
+`news_scraping.ipynb`: web scraping news sites with beautiful soup and selenium   
 `data_cleaning.ipynb`: carrying out data cleaning with regex etc  
 `EDA.ipynb`: exploratory data analysis and visualisations of data
 `sentiment_analysis.ipynb`: NLP with textblob and vader  
